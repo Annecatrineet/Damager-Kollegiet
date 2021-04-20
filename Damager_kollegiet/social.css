@@ -1,0 +1,260 @@
+
+ .tilbage_knap{
+    position: fixed;
+    background: none !important;
+    color: black; 
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    top: 100px;
+    margin-left: 13px;
+    padding: 5px 10px;
+    font-family: 'Avenir Next'; 
+ }
+
+ .pil_tilbage{
+     transform: rotate(180deg);
+     display: inline-block;
+
+ }
+
+.social_container{
+    position: relative;
+}
+.social_img{
+    width: 100%;
+}
+
+.social_text{
+    position: absolute;
+    font-size: 45px;
+    top: 16%;
+    left: 5%;
+    text-shadow: -1.2px 1.2px rgba(255, 247, 237, 0.712);
+}
+.social_flexbox{
+    display: flex;
+    width: 100%;
+    background: rgb(253, 247, 247);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.film{
+    flex: 1;
+    height: 100%;
+    background: rgb(255, 247, 235);
+    padding-bottom: 100px;
+    
+}
+.popcorn{
+    padding-top: 50px
+}
+.spil{
+    flex: 1;
+    height: 100%;
+    background: rgb(244, 247, 252);
+    padding-bottom: 55px;
+}
+.skak{
+    padding-top: 50px;
+}
+.fest{
+    flex: 1;
+    height: 100%;
+    background: rgb(255, 242, 226);
+    padding-bottom: 126px;
+  
+}
+.cocktail{
+    padding-top: 50px;
+}
+.social-headline{
+    font-size: 25px;
+    padding-top: 22px;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.social-text{
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.social-text1{
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.social-text2{
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.kitchen{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(250, 237, 212);
+    width: 100%;
+    height: 500px;
+}
+.bestik{
+    width: 130px;
+    margin-top: 100px;
+    margin-left: 150px;    
+}
+.kitchen_text{
+    margin-left: 120px;
+    margin-top: 120px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+.booking{
+    width: 100%;
+}
+.reglement-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 229, 229);
+    padding-bottom: 70px;
+    margin-top: -4px;
+}
+.reglement-container h1{
+    font-size: 60px;
+    color: black;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 25px;
+}
+.reglement-container h2{
+    padding-left: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+.reglement-container h2 span{
+    font-weight: bold;
+}
+
+.footer_flexbox{
+    margin-top: -5px;
+}
+@media screen and (max-width: 600px){
+    .social_text{
+        position: absolute;
+        font-size: 18px;
+        top: 10%;
+        left: 7%;
+        text-shadow: -1.2px 1.2px rgba(255, 247, 237, 0.712);
+    }
+    .social_flexbox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: rgb(253, 247, 247);
+    }
+    .film{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .popcorn{
+        width: 32%;
+        padding-left: 40px;
+    }
+    
+    .spil{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .skak{
+        width: 33%;
+        padding-right: 40px;
+        
+    }
+    .social-headline{
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    .social-text{
+       font-size: 12px;
+       padding-top: 80px;
+       margin-right: -20px;
+    }
+
+    .social-text1{
+        font-size: 12px;
+        padding-top: 80px;
+        padding-right: 30px;
+     
+     }
+     .fest{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+     }
+     .cocktail{
+        width: 36%;
+        padding-left: 40px;
+
+     }
+     .social-text2{
+        font-size: 12px;
+        padding-top: 100px;
+        padding-left: 30px;
+     
+     }
+     .kitchen{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(250, 237, 212);
+        width: 100%;
+        height: 100%;
+    }
+    .bestik{
+        width: 60px;
+        margin: auto;
+        margin-left: 155px;
+        margin-top: 30px;
+    }
+    .kitchen_text{
+        text-align: center;
+        font-size: 10px;
+        margin: 0;
+        padding: 30px 60px 45px 60px;
+    }
+    .kitchen_text h1{
+        font-size: 25px;  
+    }
+    .reglement-container h1{
+        font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-bottom: 25px;
+    }
+    .reglement-container h2{
+        padding-left: 55px;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 20px;
+        padding-right: 0;
+        margin-right: 60px;
+}
+
+.tilbage_knap{
+    display: none;
+}
+}

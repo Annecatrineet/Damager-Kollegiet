@@ -1,0 +1,316 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	font-family: 'Avenir Next';
+	overflow-x: hidden;
+}
+
+.nav_bar {
+	position: sticky;
+	top: 0;
+	height: 80px;
+	background-color: white;
+	z-index: 9999;
+}
+
+.logo{
+    max-width: 100px;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none !important;
+	color: #1f1e1e;
+	transition: color 0.3s ease;
+}
+
+/* Hamburger Menu */
+
+.menuHidden {
+	display: none
+}
+
+.menuShow {
+	display: block;
+}
+
+#menu a:hover {
+	color: #f79424;
+}
+
+#menuToggle {
+	display: block;
+	position: absolute;
+	top: 26px;
+	right: 50px;
+	z-index: 9999999;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#menuToggle input {
+	display: block;
+	width: 40px;
+	height: 32px;
+	position: absolute;
+	top: -7px;
+	left: -5px;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 2;
+	-webkit-touch-callout: none;
+}
+
+#menuToggle span {
+	display: block;
+	width: 33px;
+	height: 4px;
+	margin-bottom: 5px;
+	position: relative;
+	background: #141414;
+	border-radius: 3px;
+	z-index: 1;
+	transform-origin: 4px 0px;
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+	background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+	opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+	transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+	transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked~span {
+	opacity: 1;
+	transform: rotate(45deg) translate(-2px, -1px);
+	background: #141414;
+}
+
+#menuToggle input:checked~span:nth-last-child(3) {
+	opacity: 0;
+	transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked~span:nth-last-child(2) {
+	opacity: 1;
+	transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+	position: absolute;
+	width: 300px;
+	margin: -100px 0 0 0;
+	padding: 50px;
+	padding-top: 125px;
+	background-color: white;
+	opacity: 20;
+	right: -100px;
+	list-style-type: none;
+	-webkit-font-smoothing: antialiased;
+	transform-origin: 0% 0%;
+	transform: translate(100%, 0);
+
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+	padding: 10px 0;
+	font-size: 22px;
+}
+
+#menuToggle input:checked~ul {
+	transform: scale(1.0, 1.0);
+	opacity: 1;
+}
+/* Hamburger menu end */
+
+.main {
+	margin-top: 30px;
+}
+
+iframe{
+    width: 100%;
+    height: 60vh;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+	max-width: 100%;
+	height: 100%;
+	margin-top: -4px;
+}
+.card{
+	max-width: 33.33%;
+}
+
+.flexbox img {
+	max-width: 100%;
+}
+
+.flexbox p {
+	margin-left: 12px;
+}
+
+.flexbox h1{
+    margin-left: 10px;
+}
+.flexbox_jeanette{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.flexbox_jeanette img{
+    width: 100%;
+	height: 100%;
+}
+.read{
+	font-size: 20px;
+	padding-left: 2px;
+	font-weight: 400;
+}
+
+.pil{
+	color: #f79424;
+	font-size: 25px;
+	padding-left: 15px;
+	
+}
+.tekst{
+	font-size: 20px;
+	
+}
+.tal{
+	color: #f79424;
+	font-size: 35px;
+}
+.headline{
+	font-size: 25px;
+}
+.meet{
+	background-color: rgb(233, 209, 165);
+	width: 100%;
+}
+.headline_meet{
+	font-size: 100px;
+	color:  #f79424;
+	margin-left: -210px;
+	margin-top: 150px;
+	font-weight: 900;
+	text-shadow: -1.2px 1.2px rgba(150, 138, 123, 0.712);
+}
+.headline_tynd{
+	font-weight: 300;
+}
+
+.meet h3{
+	font-size: 33px;
+	color: black;
+	margin-left: 30px;
+	margin-top: 10px;
+	font-weight: 500;
+}
+.meet p{
+	font-size: 20px;
+	line-height: 30px;
+	color: black;
+	padding: 20px 150px 0 40px;
+
+}
+
+
+/* Footer */
+
+.footer_flexbox{
+	margin-top: 25px;
+	width: 100%;
+	background-color: rgb(255, 239, 221);
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.footer_flexbox h1{
+	font-size: 18px;
+	font-weight: lighter;
+	padding: 40px 0 50px 30px;
+}
+/*----Ipad view----*/
+@media screen and (max-width: 992px){
+
+}
+/*----Mobile view----*/
+@media screen and (max-width: 600px){
+	#menuToggle {
+		display: block;
+		position: absolute;
+		top: 26px;
+		right: 30px;
+		z-index: 1;
+		-webkit-user-select: none;
+		user-select: none;
+	}	
+	
+	.flexbox{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+		margin-top: -4px;
+	}	
+	.card{
+		max-width: 100%;
+	}
+	.flexbox_jeanette img{
+		display: none;
+	}
+	.headline_meet{
+		font-size: 70px;
+		color:  #f79424;
+		margin-left: 1px;
+		margin-top: 40px;
+		font-weight: 900;
+		text-shadow: -1.2px 1.2px rgba(150, 138, 123, 0.712);
+		text-align: center;
+	}
+	
+	.meet h3{
+		font-size: 25px;
+		color: black;
+		text-align: center;
+		font-weight: 500;
+		padding: 0;
+	}
+	.meet p{
+		font-size: 22px;
+		line-height: 30px;
+		color: black;
+		text-align: center;
+		padding: 0;
+		margin: 15px 60px 50px 60px
+		
+		
+	}
+}

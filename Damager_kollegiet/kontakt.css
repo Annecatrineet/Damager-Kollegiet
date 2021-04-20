@@ -1,0 +1,366 @@
+.tilbage_knap{
+    position: fixed;
+    background: none !important;
+    color: black; 
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    top: 100px;
+    margin-left: 13px;
+    padding: 5px 10px;
+    font-family: 'Avenir Next'; 
+ }
+
+ .pil_tilbage{
+     transform: rotate(180deg);
+     display: inline-block;
+
+ }
+
+.overskrift{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+   
+    grid-template-areas: "faq1 faq2"
+  }
+  .faq1 { grid-area: faq1;
+  }
+  .faq2 { grid-area: faq2;
+  }
+  
+      .accordion{
+          background-color: white;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border-bottom: solid #CCCCCC 1px;
+          transition: 0.4s;
+           text-align: left;
+           padding-left: 100px;
+          font-size: 1rem;
+      }
+      .accordion:hover{
+          color: #ff811b;
+      }
+  .accordion:focus {outline:0;}
+      .panel{
+          padding: 0.18px;
+          display: none;
+          overflow: hidden;
+           padding: 0.18px;
+   
+          text-align: left;
+          font-family: Avenir Next;
+          margin-top: 20px;
+          margin-left: 70px;
+          margin-right: 90px;
+          font-size: 15px;
+          line-height: 1.4;
+          
+      }
+      .chat-container{
+          display: flex;
+          flex-direction: row;
+
+      }
+      .chat-container img{
+          width: 100%;
+          height: 100%;
+      }
+      .varmemester{
+          display: flex;
+          flex-direction: row;  
+      }
+      .varmemester img{
+          width: 100%;
+          height: 100%;
+      }
+     .varme{
+         background-color: rgb(221, 221, 221);
+         width: 100%;
+         text-align: center;
+         padding-top: 90px;
+         color: black;
+     }
+     .varme h1{
+         padding-bottom: 10px;
+     }
+     .varme h2{
+         font-weight: 300;
+         padding-bottom: 55px;
+     }
+     .varme p{
+         font-size: 18px;
+         padding-left: 90px;
+         padding-right: 90px;
+         padding-bottom: 60px;
+     }
+    
+     input[type=text]{
+         background-color:#e9e4dd;
+     }
+     input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        background-color:#e9e4dd;
+    
+      }
+      
+      input[type=submit] {
+        background-color: #fdca6a;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #f0ab2a;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #ddd4c9;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .container h1{
+          font-size: 22px;
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+    
+     .bo-container{
+         position: relative;
+     }
+     .img-bo{
+         width: 100%;
+         height: auto;
+         
+     }
+    
+     .bo-container .btn{
+        position: absolute;
+  top: 67%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: wheat;
+  color:  #ff9e4e;
+  font-size: 25px;
+  padding: 12px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+     }
+
+     .kontakt_container{
+         display: flex;
+         flex-direction: row;
+         width: 100%;
+         background-color: rgb(233, 231, 231);
+         justify-content: space-around;
+         align-items: center;
+         
+     }
+     .låsesmed{
+         flex: 1;
+         padding: 50px;
+         font-size: 18px;
+     }
+     .glarmester{
+        flex: 1;
+        padding: 50px;
+        font-size: 18px;
+    }
+    .el{
+        flex: 1;
+        padding: 50px;
+        font-size: 18px;
+    }
+    .kloak{
+        flex: 1;
+        padding: 50px;
+        font-size: 18px;
+    }
+    .vvs{
+        flex: 1;
+        padding: 50px;
+        font-size: 18px;
+    }
+  
+    .img-låsesmed{
+        margin-left: 28px;
+    }
+    .img-glar{
+        margin-left: 25px;
+    }
+    .img-el{
+        margin-left: 14px;
+    }
+    .img-kloak{
+        margin-left: 18px;
+    }
+    .img-vvs{
+        margin-left: 25px;
+    }
+    .kontakt-headline{
+        font-size: 27px;
+        font-weight: 400;
+    }
+    .kontakt-underline1{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 26px;
+        
+    }
+    .kontakt-underline2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 18px;
+        
+    }
+    .kontakt-underline4{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 2px;
+        
+    }
+    .kontakt-underline5{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 30px;
+        
+    }
+    .kontakt-underline{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 6px;
+    }
+    
+    .footer_flexbox{
+        margin-top: -5px;
+    }
+    /*------Mobile view------*/
+    @media screen and (max-width: 600px) {
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 1fr;
+           
+            grid-template-areas: 
+            "faq1" 
+            "faq2"
+          } 
+          .accordion{
+            background-color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border-bottom: solid #CCCCCC 1px;
+            transition: 0.4s;
+             text-align: left;
+             padding-left: 50px;
+            font-size: 1rem;
+        }
+          .chat-container{
+            display: flex;
+           flex-direction: column;
+        }
+       .chat-container img{
+           display: none;
+       }
+       .bo-container .btn{
+        position: absolute;
+  top: 67%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: wheat;
+  color:  #ff9e4e;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+     }
+     .container {
+        border-radius: 5px;
+        background-color: #ddd4c9;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 30px;
+      }
+     .varmemester{
+        display: flex;
+        flex-direction: column;  
+        margin-top: -5px;
+    }
+    .varme{
+        background-color: rgb(221, 221, 221);
+        width: 100%;
+        padding-top: 30px;
+        color: black;
+        margin-top: -7px;
+    }
+    .varme h1{
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .varme h2{
+        font-size: 18px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    .varme p{
+        font-size: 13px;
+        padding: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+    }
+    .kontakt_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(233, 231, 231);
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .img-låsesmed{
+        margin-left: 35px;
+    }
+    .img-glar{
+        margin-left: 33px;
+    }
+    .img-el{
+        margin-left: 14px;
+    }
+    .img-kloak{
+        margin-left: 18px;
+    }
+    .img-vvs{
+        margin-left: 25px;
+    }
+   
+    .tilbage_knap{
+        display: none;
+    }
+
+    }

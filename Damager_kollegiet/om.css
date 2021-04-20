@@ -1,0 +1,263 @@
+
+
+     .tilbage_knap{
+        position: fixed;
+        background: none !important;
+        color: black; 
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 9px;
+        top: 100px;
+        margin-left: 13px;
+        padding: 5px 10px;
+        font-family: 'Avenir Next'; 
+     }
+
+     .pil_tilbage{
+         transform: rotate(180deg);
+         display: inline-block;
+
+     }
+
+
+.om_flexbox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+}
+.lokation{
+    flex: 1;
+    background: rgb(255, 255, 244);
+    padding: 30px;
+   
+}
+.point{
+    padding-top: 80px;
+    
+}
+.door{
+    flex: 1;
+    background: rgb(244, 247, 252);
+    padding: 30px;
+   
+}
+.lejligheder{
+    padding-top: 80px;
+}
+.vaskemaskine{
+    flex: 1;
+    background: rgb(255, 242, 226);
+    padding: 30px; 
+}
+.vaske{
+    padding-top: 80px;
+}
+.om-headline{
+    font-size: 25px;
+    padding-top: 22px;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.om-text{
+    font-size: 18px;
+    padding: 0 40px 70px 40px;
+}
+.om-text1{
+    font-size: 18px;
+    padding: 0 40px 70px 40px;   
+}
+.om-text2{
+    font-size: 18px;
+    padding: 0 40px 70px 40px;
+}
+
+.oversigt{
+    width: 100%;
+    height: 100%;
+}
+.et_varelse{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 230, 227);  
+    justify-content: center;
+}
+.varelse{
+    width: 100%;
+    padding: 70px 0 50px 100px;
+}
+.varelse_text{
+   padding: 150px 100px 0 40px;  
+}
+.varelse_text h1{
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+.varelse_text p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+    line-height: 27px;
+}
+.to_varelse{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 243, 226);
+}
+.varelse2{
+    width: 100%;
+    padding: 60px 100px 50px 0;
+    
+}
+.varelse_text2{
+  text-align: center;
+  padding: 150px 20px 0 100px;
+}
+.varelse_text2 h1{
+    font-weight: 600;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+.varelse_text2 p{
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    
+}
+
+.footer_flexbox{
+    margin-top: -5px;
+}
+@media screen and (max-width: 600px){
+    .om_flexbox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .lokation{
+        display: flex;
+        flex-direction: row;
+        background: rgb(255, 255, 244);
+        padding-top: 55px;
+        padding-bottom: 35px;
+    }
+    .point{
+        width: 27%;
+        margin-top: -100px;
+    }
+    .door{
+        display: flex;
+        flex-direction: row-reverse;
+        background: rgb(244, 247, 252);
+        padding: 30px;
+    }
+    .lejligheder{
+        width: 30%;
+        margin-top: -100px;
+    }
+    .vaskemaskine{
+        display: flex;
+        flex-direction: row;;
+        background: rgb(255, 242, 226);
+        padding-top: 55px; 
+        padding-bottom: 35px;
+    }
+    .vaske{
+        width: 30%;
+        padding-top: 20px;
+    }
+    .om-text{
+        font-size: 12px;
+        padding: 0;
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    .om-text1{
+        font-size: 12px;
+        padding: 0;
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    .om-text2{
+        font-size: 12px;
+        padding: 0;
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    .om-headline{
+        font-size: 20px;
+    }
+    .et_varelse{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(233, 230, 227);  
+    }
+    .varelse_text{
+        padding: 0;
+        text-align: center;
+        
+      }
+      .varelse{
+          width: 100%;
+          padding: 35px 50px 35px 50px;
+      }
+      .varelse_text h1{
+        margin: 0;
+    }
+      .varelse_text p{
+          margin: 0;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 20px;
+          padding-bottom: 60px;
+      }
+      .to_varelse{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgb(255, 243, 226);
+    }
+    .varelse2{
+        width: 100%;
+        padding: 35px 50px 35px 50px;
+        
+    }
+    .varelse_text2{
+       padding: 0;
+       text-align: center;
+    }
+    .varelse_text2 h1{
+        margin: 0;
+
+    }
+    .varelse_text2 p{
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    
+        
+    }
+
+    .tilbage_knap{
+        display: none;
+    }
+}
+
+
+   
+

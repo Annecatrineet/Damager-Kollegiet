@@ -1,0 +1,75 @@
+.tilbage_knap{
+    position: fixed;
+    background: none !important;
+    color: black; 
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    top: 100px;
+    margin-left: 13px;
+    padding: 5px 10px;
+    font-family: 'Avenir Next'; 
+ }
+
+ .pil_tilbage{
+     transform: rotate(180deg);
+     display: inline-block;
+
+ }
+
+.headline-forum{
+  font-size: 30px;  
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background: rgba(236, 236, 236, 0.904);
+
+}
+.social_flexbox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgba(236, 236, 236, 0.904);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.fb{
+    padding-top: 30px;
+}
+.insta{
+    padding-top: 30px;
+}
+.social-headline{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}   
+.social-text{
+    font-size: 19px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 50px;
+}
+.footer_flexbox{
+    margin-top: -4px;
+}
+@media screen and (max-width: 600px){
+    .social_flexbox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: rgba(236, 236, 236, 0.904);
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .tilbage_knap{
+        display: none;
+    }
+}

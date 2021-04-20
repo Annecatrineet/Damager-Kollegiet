@@ -1,0 +1,142 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+.tilbage_knap{
+    position: fixed;
+    background: none !important;
+    color: black; 
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    top: 100px;
+    margin-left: 13px;
+    padding: 5px 10px;
+    font-family: 'Avenir Next'; 
+ }
+
+ .pil_tilbage{
+     transform: rotate(180deg);
+     display: inline-block;
+
+ }
+
+.skraldespand_flexbox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgb(241, 239, 232);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;  
+}
+.recycle_img{
+    width: 100%;
+}
+.recycle-headline{
+    width: 100%;
+    background: rgb(241, 239, 232);
+    text-align: center;
+    padding: 40px 0 20px 0;
+    margin-top: -5px;
+}
+.skraldespand_img{
+    width: 150px;
+    transition: transform .2s; /* Animation */
+}
+.skraldespand_img:hover{
+    transform: scale(1.2); 
+}
+.om-headline{
+    padding-top: 15px;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.solcelle_div{
+    background-color:rgb(253, 239, 213);
+    padding: 100px 100px 200px 100px;
+}
+.solcelle_div h1{
+    font-size: 25px;
+    color: orange;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 7px;
+}
+.solcelle_div h2{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-right: 220px;
+    padding-left: 220px;
+}
+
+.solcelle_infographic{
+    max-width: 80%;
+    display: block;
+   margin: auto;
+}
+.solcelle_infom{
+    display: none;
+}
+.footer_flexbox{
+    margin-top: -4px;
+}
+@media screen and (max-width: 600px){
+    .skraldespand_flexbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .skraldespand_img{
+        width: 100px;
+        transition: transform .2s; /* Animation */
+    }
+    .skraldespand_img:hover{
+        transform: scale(1.2); 
+    }
+    .recycle-headline{
+        font-size: 25px;
+        padding-top: 30px;
+        padding-left: 3px;
+    }
+    .om-headline{
+        padding-bottom: 50px;
+    }
+    .solcelle_div{
+        display: none;
+    }
+    .solcelle_divm{
+        width: 100%;
+        background-color:rgb(253, 239, 213);
+        height: auto;
+    }
+    .solcelle_infom{
+        display: block;
+        width: 100%;
+       padding: 50px 35px 50px 35px;
+        
+    }
+
+    .tilbage_knap{
+        display: none;
+    }
+}
+
+
+

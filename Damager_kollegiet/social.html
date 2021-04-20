@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="social.css">
+    <title>Damager Kollegiet | Fællesskab</title>
+    <link rel="shortcut icon" type="image/svg" href="images/logo.svg">
+</head>
+<body>
+
+    <nav role='navigation' class="nav_bar">
+        <div>
+            <a href="index.html"><img src="images/logo.svg" alt="damager kollegie logo" class="logo"></a>
+        </div>
+		<div id="menuToggle">
+			<input type="checkbox" onclick="showMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+			<ul id="menu" class="menuHidden">
+				<a href="index.html">
+					<li>Forside</li>
+				</a>
+				<a href="om.html">
+					<li>Om Kollegiet</li>
+				</a>
+				<a href="social.html">
+					<li>Fællesskab</li>
+				</a>
+				<a href="recycle.html">
+					<li>Bæredygtighed</li>
+				</a>
+                <a href="kontakt.html">
+					<li>Kontakt</li>
+				</a>
+                <a href="#">
+					<li>Good to know</li>
+				</a>
+                <a href="forum.html">
+					<li>Forum</li>
+				</a>
+			</ul>
+		</div>
+	</nav>
+
+    <main>
+        <div class="social_container">
+			<a href="index.html"><button class="tilbage_knap"> <span class="pil_tilbage">&#x2192;</span> Tilbage </button></a>
+
+			<img src="images/piger.jpg" alt="billede af piger" class="social_img">
+			<div class="social_text">FÆLLESSKAB ER VIGTIGT! <br> OG VI SÆTTER GERNE <br> RAMMERNE <br>FOR HYGGEN</div>
+		</div>
+		<div class="social_flexbox">
+    		<div class="film"> <img src="images/popcorn.svg" alt="illustration af popcorn" class="popcorn" width="150px"> <p class="social-text"><span class="social-headline">FILMHYGGE</span><br><br>I fællesrummet er der rig mulighed for at smide sig foran fjereneren og se fodbold, film og hygge sig. <br><br>Du kan også benytte dig af kollegiets X-box og playstation, hvis du ønsker at have en gaming aften med dine venner.</p></div>
+    		<div class="spil"> <img src="images/skak.svg" alt="illustration af skakbrik" class="skak" width="150px"><p class="social-text1"><span class="social-headline">SPILLEAFTEN</span><br><br>Er du også vild med et godt brætspil? Kollegiet tilbyder en masse gode og forskellige spil, så I kan hygge jer med en gang Matador, Vildkatten eller noget helt tredje. <br><br>Husk altid altid at rydde op efter jer selv og efterlad rummet til andre der ønsker at benytter sig af faciliteterne. </p></div>
+    		<div class="fest"> <img src="images/cocktail.svg" alt="illustration af en cocktail" class="cocktail" width="150px"><p class="social-text2"><span class="social-headline">FEST & FARVER</span><br><br>Ja, der skal også være plads til fest og farver. I fællesrummet er der massere af plads til at I kan sætte jer ned og snakke, have det sjovt og nyde en øl eller to.<br><br> Skulle I få lyst til at holde en privatfest, så læs nedenfor.</p></div>
+		</div>
+		<div class="kitchen"> 
+   			<div>
+				<img src="images/bestik.svg" alt="illustration af bestik" class="bestik">
+			</div> 
+    	<div class="kitchen_text"> <h1>FÆLLESKØKKEN</h1> <br> Er I flere der ønsker at lave noget mad og spise sammen, så er der også rig mulighed for det. Vi stiller et stort fælles køkken til rådighed. Hermed behøver I ikke at stå i jeres lille private køkken, men har mulighed for at kunne have god plads omkring jer. <br><br>Køkkenet er udstyret med alle basis redskaber og du skal derfor bare selv stå for indkøb.</div>
+		</div>
+		<div>
+    		<img src="images/booking.png" class="booking">
+		</div>
+		
+
+		<!-- BOOKING  -->
+
+		<section class="booking">
+			<div id="bookingjs"></div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+			<script src="https://cdn.timekit.io/booking-js/v2/booking.min.js" defer></script>
+			<script>
+				window.timekitBookingConfig = {
+  				app_key: 'test_widget_key_a35xaK6LMXgdtN8jTs0eDhUnCFtHnkGz',
+  				project_id: 'e9dbb411-eaf3-4032-b085-f38f923f67b1'
+				
+				}
+			</script>
+		</section>
+
+		<div class="reglement-container">
+			<h1>HUSK lige...</h1>
+			<h2>&#9679; Fælleslokalet kan lejes <span> alle lørdage</span> i hver måned - bortset fra i eksamensperioderne dec./jan. og maj/jun.</h2>
+			<h2>&#9679; Reservering kan tidligst foretages tre måneder før benyttelse. Reservation træder i kraft, når lejekontrakten er underskrevet, og et beløb for leje og depositum er betalt til de udlejningsansvarlige i Damager Kollegiets 
+				afdelingsbestyrelse.</h2>
+				<h2> &#9679; Du kan se i kalenderen hvornår rummet er reserveret. Hvis der er eventuelle spørgsmål angående leje af fællesrummet, så skriv til dambestyrelsen@gmail.com</h2>
+				<h2>&#9679; Ved afholdelsen af private fester, er det nu muligt at leje kollegiets bar med bartendere, hvis det skønnes rentabelt af baren. Kontakt dambestyrelsen@gmail.com for mere info.</h2>
+		</div>
+</main>
+
+
+	<footer>
+		<div class="footer_flexbox">
+			<div>
+				<h1>Damager Kollegiet </h1>
+			</div>
+			<div>
+				<h1>&#9679;</h1>
+			</div>
+			<div>
+			  <h1>Damagervej 12L</h1>
+		  </div>
+		  <div>
+			  <h1>&#9679;</h1>
+		  </div>
+		  <div>
+			  <h1>8260 Viby J</h1>
+		  </div>
+		  
+		
+		</div>
+		
+	</footer>
+
+	<script src="script.js"></script>
+
+    </body>
+	</html>
